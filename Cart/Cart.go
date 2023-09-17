@@ -124,6 +124,3 @@ func main() {
 		fmt.Println("discount total:", total)
 	}
 }
-
-// indirim konusu tamamen hazır
-// eğer aynı sellerId den 3 ya da daha fazla ürün var ise o 3 ürün kapsamında %5 indirim yapılıyor
