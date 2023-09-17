@@ -49,9 +49,3 @@ func Discount(count int, Cart map[int]Item) float32 {
 	return discount_price
 
 }
-
-// program çalışıyor discount fonksiyonunda tüm id ler tek arraya atandı mesela 4 id var bunlar 3 3 4 1 ise bu id ler 3 4 1 şeklinde atanmış oldu
-// sırada bu id lerin map karşılıkları ile karşılaştırılması var eğer sepette 3 ve daha fazla aynı sellerid içeriği varsa o 3 ürünün toplam fiyatında % 5 indirim olacak
-
-// en son record_card daki indexleri hallettim 1, 2, 3	4, 5, 6 diye devam ediyor sırada kağıt üzerinde bunların işlemini devam ettircem
-// program çalıştığındaki çıktı doğrumu ona bakacam
