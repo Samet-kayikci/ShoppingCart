@@ -1,4 +1,4 @@
-// this file do is process items id
+
 package ItemId
 
 type VasItem struct {
